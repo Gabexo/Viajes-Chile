@@ -24,3 +24,7 @@ nav {
   .cartas {
     background-color: black;
   }
+  /* METODOS DE PAGO */
+  #metodosDePago {
+    background-color: #10ccf4;
+  }
