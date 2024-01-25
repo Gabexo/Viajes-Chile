@@ -1,0 +1,26 @@
+
+nav {
+    background-color: transparent; /* Fondo transparente */
+    backdrop-filter: blur(10px);
+}
+.viajes {
+ width: 30px;
+  }
+  .navbar-brand {
+ 
+    font-size: 25px;
+  }
+  .navbar-toggler {
+      border-color: #777777;
+  
+  }
+  .nav-link {
+    color: #ffffff;
+  }
+ main {
+    background-color: black;
+ }
+  /* CARTAS */
+  .cartas {
+    background-color: black;
+  }
