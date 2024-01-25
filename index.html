@@ -60,13 +60,13 @@
               <a class="nav-link" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Quiénes Somos</a>
+              <a class="nav-link" href="#quienes">Quiénes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Destacados</a>
+              <a class="nav-link" href="#destacado">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-disabled="true">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -119,31 +119,87 @@
       </div>
     </header>
     <main class="">
-      <section class="py-3 d-none d-md-block">
-          <div>
-            <h4 class="text-center text-white fw-light">¿QUIÉNES SOMOS?</h4>
-            
+      <!-- QUIENES SOMOS? -->
+      <section id="quienes" class="py-3 d-none d-md-block">
+        <div class="container">
+          <h4 class="text-center text-white fw-light m-1">¿QUIÉNES SOMOS?</h4>
+          <hr class="text-light" />
+        </div>
+        <div class="container mt-5">
+          <section
+            class="d-flex flex-column flex-md-row align-items-center text-justify"
+          >
+            <div class="d-flex flex-column flex-md-row">
+              <div class="mx-2 order-md-1 order-1 text-white text-justify">
+                <div class="faviconb d-flex justify-content-center py-2">
+                  <i class="fa-solid fa-plane"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                  ab, quas architecto odio provident ad iste nisi praesentium!
+                  Temporibus rem obcaecati maiores ad. Voluptate, veniam. Rem
+                  eum obcaecati eos accusamus.Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Autem ab, quas architecto odio
+                  provident ad iste nisi praesentium! Temporibus rem obcaecati
+                  maiores ad. Voluptate, veniam. Rem eum obcaecati eos accusamus
+                </p>
+              </div>
+              <div class="mx-2 order-md-2 order-2 text-white text-justify">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam necessitatibus tempore et dignissimos officiis!
+                  Possimus quibusdam quo aliquid accusantium velit soluta hic
+                  optio ex dolores placeat, aspernatur ipsum error.
+                  Obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Autem ab, quas architecto odio provident ad iste nisi
+                  praesentium! Temporibus rem obcaecati maiores ad. Voluptate,
+                  veniam. Rem eum obcaecati eos accusamus
+                </p>
+                <div class="faviconb d-flex justify-content-center py-2">
+                  <i class="fa-solid fa-mountain"></i>
+                </div>
+              </div>
+              <div class="mx-2 order-md-3 order-3 text-white text-justify">
+                <div class="faviconb d-flex justify-content-center py-2">
+                  <i class="fa-solid fa-route"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur soluta quaerat molestiae? Facilis, et.
+                  Praesentium, repellat ducimus non animi officia, in odio
+                  sapiente tenetur voluptatum ipsum hic magnam adipisci
+                  sit?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Autem ab, quas architecto odio provident ad iste nisi
+                  praesentium! Temporibus rem obcaecati maiores ad. Voluptate,
+                  veniam. Rem eum obcaecati eos accusamus
+                </p>
+              </div>
+            </div>
+          </section>
         </div>
       </section>
-      <section class="container cartas p-3">
-        <h4 class="text-center text-white fw-light">DESTACADOS</h4>
-        <div class="row row-cols-1 row-cols-md-4 g-4 px-5 my-5">
+      <!-- DESTACADOS -->
+      <section id="destacado" class="container cartas">
+        <div>
+          <h4 class="text-center text-white fw-light">DESTACADOS</h4>
+          <hr class="text-light" />
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4 my-2">
           <div class="col">
             <div class="card text-bg-info">
               <img
                 src="./assets/img/card1.jpg"
                 class="card-img-top img-fluid"
                 alt="..."
-                style="width: 430px; height: 200px"
               />
               <div class="card-body">
                 <h4 class="card-title time-text fw-light text-white">
-                  Más montañas
+                  Montañas
                 </h4>
                 <p class="card-text list-receta my-3 text-white">
-                  Congue fermentum dignissim rhoncus elementum ac nisi, proin
-                  phasellus lacinia sed faucibus mauris, taciti scelerisque
-                  nulla ornare consequat.
+                  Cubilia elementum posuere arcu rhoncus egestas lectus, diam
+                  aliquam laoreet ac eleifend risus, urna auctor inceptos mattis
+                  dapibus.
                 </p>
               </div>
             </div>
@@ -152,18 +208,17 @@
             <div class="card text-bg-info">
               <img
                 src="./assets/img/card2.jpg"
-                class="card-img-top img-fluid"
+                class="card-img-top"
                 alt="..."
-                style="width: 430px; height: 200px"
               />
               <div class="card-body">
                 <h4 class="card-title time-text fw-light text-white">
                   Más montañas
                 </h4>
                 <p class="card-text list-receta my-3 text-white">
-                  Congue fermentum dignissim rhoncus elementum ac nisi, proin
-                  phasellus lacinia sed faucibus mauris, taciti scelerisque
-                  nulla ornare consequat.
+                  Cubilia elementum posuere arcu rhoncus egestas lectus, diam
+                  aliquam laoreet ac eleifend risus, urna auctor inceptos mattis
+                  dapibus.
                 </p>
               </div>
             </div>
@@ -173,12 +228,11 @@
               <img
                 src="./assets/img/card3.jpg"
                 class="card-img-top img-fluid"
-                style="width: 430px; height: 200px"
                 alt="..."
               />
               <div class="card-body">
                 <h4 class="card-title time-text fw-light text-white">
-                  No hay montañas :c
+                  Desierto
                 </h4>
                 <p class="card-text list-receta my-3 text-white">
                   Cubilia elementum posuere arcu rhoncus egestas lectus, diam
@@ -194,7 +248,6 @@
                 src="./assets/img/card4.jpg"
                 class="card-img-top img-fluid"
                 alt="..."
-                style="width: 430px; height: 200px"
               />
               <div class="card-body">
                 <h4 class="card-title time-text fw-light text-white">
@@ -210,8 +263,12 @@
           </div>
         </div>
       </section>
-      <section id="Contactame" class="container text-white">
-        <h4 class="contacto text-center fw-light">CONTACTO</h4>
+      <!-- CONTACTO -->
+      <section id="contacto" class="container text-white">
+        <div>
+          <h4 class="contacto text-center fw-light">CONTACTO</h4>
+          <hr class="text-light" />
+        </div>
         <div class="container px-5 py-4">
           <form>
             <div class="mb-3">
@@ -271,14 +328,15 @@
         </div>
       </section>
     </main>
+    <!-- FOOTER -->
     <footer
       id="metodosDePago"
       class="d-sm-flex justify-content-evenly align-items-center py-3 px-5 text-white gap-5"
     >
       <div class="">
-        <h4 class=" fw-light">VIAJES CHILE</h4>
+        <h4 class="fw-light">VIAJES CHILE</h4>
       </div>
-      <div class="fs-3 ">
+      <div class="fs-3">
         <i class="fa-brands fa-square-github"></i>
         <i class="fa-brands fa-linkedin"></i>
         <i class="fa-brands fa-square-x-twitter"></i>
