@@ -1,3 +1,4 @@
+/* SMOOTH SCROLL */
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
@@ -15,5 +16,21 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         behavior: "smooth",
       });
     }
+  });
+});
+  /* MENSAJE DE ALERTA */
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+
+if (toastTrigger) {
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+  toastTrigger.addEventListener('click', () => {
+    toastBootstrap.show()
+  })
+}
+/* VIAJES */
+$(document).ready(function () {
+  $(".card-title").click(function () {
+    $(this).closest(".card").find(".list-receta").toggle("hide");
   });
 });

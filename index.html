@@ -28,15 +28,15 @@
     <!-- ESTILOS PERSONALES -->
     <link rel="stylesheet" href="./assets/css/style.css " />
     <!-- RUTA JAVASCRIPT -->
-    <script
+    <script defer
       src="https://code.jquery.com/jquery-3.7.1.js"
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
       crossorigin="anonymous"
     ></script>
-    <script src="./assets/js/index.js"></script>
+    <script defer src="./assets/js/index.js"></script>
   </head>
   <body>
-    <!-- NAVBAR -->
+    <!-- NAVBAR BOOTSTRAP -->
     <nav class="navbar navbar-dark navbar-expand-lg py-1 fixed-top">
       <div class="container px-5">
         <a class="navbar-brand text-white" href="#">
@@ -72,7 +72,7 @@
         </div>
       </div>
     </nav>
-    <!-- Carrusel de Imagenes -->
+    <!-- CARRUSEL BOOTSTRAP-->
     <header>
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
@@ -118,6 +118,7 @@
         </button>
       </div>
     </header>
+    <!-- QUIENES SOMOS / DESTACADOS / CONTACTO -->
     <main class="">
       <!-- QUIENES SOMOS? -->
       <section id="quienes" class="py-3 d-none d-md-block">
@@ -125,60 +126,58 @@
           <h4 class="text-center text-white fw-light m-1">¿QUIÉNES SOMOS?</h4>
           <hr class="text-light" />
         </div>
-        <div class="container mt-5">
-          <section
-            class="d-flex flex-column flex-md-row align-items-center text-justify"
-          >
-            <div class="d-flex flex-column flex-md-row">
-              <div class="mx-2 order-md-1 order-1 text-white text-justify">
-                <div class="faviconb d-flex justify-content-center py-2">
-                  <i class="fa-solid fa-plane"></i>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                  ab, quas architecto odio provident ad iste nisi praesentium!
-                  Temporibus rem obcaecati maiores ad. Voluptate, veniam. Rem
-                  eum obcaecati eos accusamus.Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Autem ab, quas architecto odio
-                  provident ad iste nisi praesentium! Temporibus rem obcaecati
-                  maiores ad. Voluptate, veniam. Rem eum obcaecati eos accusamus
-                </p>
+        <section
+          class="container mt-5 d-flex flex-column flex-md-row align-items-center text-justify"
+        >
+          <div class="d-flex flex-column flex-md-row">
+            <div class="mx-2 order-md-1 order-1 text-white text-justify">
+              <div class="faviconb d-flex justify-content-center py-2">
+                <i class="fa-solid fa-plane"></i>
               </div>
-              <div class="mx-2 order-md-2 order-2 text-white text-justify">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam necessitatibus tempore et dignissimos officiis!
-                  Possimus quibusdam quo aliquid accusantium velit soluta hic
-                  optio ex dolores placeat, aspernatur ipsum error.
-                  Obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit. Autem ab, quas architecto odio provident ad iste nisi
-                  praesentium! Temporibus rem obcaecati maiores ad. Voluptate,
-                  veniam. Rem eum obcaecati eos accusamus
-                </p>
-                <div class="faviconb d-flex justify-content-center py-2">
-                  <i class="fa-solid fa-mountain"></i>
-                </div>
-              </div>
-              <div class="mx-2 order-md-3 order-3 text-white text-justify">
-                <div class="faviconb d-flex justify-content-center py-2">
-                  <i class="fa-solid fa-route"></i>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Consequuntur soluta quaerat molestiae? Facilis, et.
-                  Praesentium, repellat ducimus non animi officia, in odio
-                  sapiente tenetur voluptatum ipsum hic magnam adipisci
-                  sit?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Autem ab, quas architecto odio provident ad iste nisi
-                  praesentium! Temporibus rem obcaecati maiores ad. Voluptate,
-                  veniam. Rem eum obcaecati eos accusamus
-                </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                ab, quas architecto odio provident ad iste nisi praesentium!
+                Temporibus rem obcaecati maiores ad. Voluptate, veniam. Rem eum
+                obcaecati eos accusamus.Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Autem ab, quas architecto odio provident ad
+                iste nisi praesentium! Temporibus rem obcaecati maiores ad.
+                Voluptate, veniam. Rem eum obcaecati eos accusamus
+              </p>
+            </div>
+            <div class="mx-2 order-md-2 order-2 text-white text-justify">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                necessitatibus tempore et dignissimos officiis! Possimus
+                quibusdam quo aliquid accusantium velit soluta hic optio ex
+                dolores placeat, aspernatur ipsum error. Obcaecati?Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Autem ab, quas
+                architecto odio provident ad iste nisi praesentium! Temporibus
+                rem obcaecati maiores ad. Voluptate, veniam. Rem eum obcaecati
+                eos accusamus
+              </p>
+              <div class="faviconb d-flex justify-content-center py-2">
+                <i class="fa-solid fa-mountain"></i>
               </div>
             </div>
-          </section>
-        </div>
+            <div class="mx-2 order-md-3 order-3 text-white text-justify">
+              <div class="faviconb d-flex justify-content-center py-2">
+                <i class="fa-solid fa-route"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur soluta quaerat molestiae? Facilis, et. Praesentium,
+                repellat ducimus non animi officia, in odio sapiente tenetur
+                voluptatum ipsum hic magnam adipisci sit?Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Autem ab, quas architecto
+                odio provident ad iste nisi praesentium! Temporibus rem
+                obcaecati maiores ad. Voluptate, veniam. Rem eum obcaecati eos
+                accusamus
+              </p>
+            </div>
+          </div>
+        </section>
       </section>
-      <!-- DESTACADOS -->
+      <!-- DESTACADOS - CARD BOOTSTRAP -->
       <section id="destacado" class="container cartas pt-2">
         <div>
           <h4 class="text-center text-white fw-light">DESTACADOS</h4>
@@ -263,13 +262,13 @@
           </div>
         </div>
       </section>
-      <!-- CONTACTO -->
-      <section id="contacto" class="container text-white">
+      <!-- CONTACTO - FORM BOOTSTRAP-->
+      <section class="container text-white">
         <div>
           <h4 class="contacto text-center fw-light">CONTACTO</h4>
           <hr class="text-light" />
         </div>
-        <div class="container px-5 py-4">
+        <div class=" py-4">
           <form>
             <div class="mb-3">
               <label
@@ -314,15 +313,30 @@
                 rows="3"
               ></textarea>
             </div>
+            <!-- BUTTON BOOTSTRAP -->
+            <button type="button" class="btn btn-info " id="liveToastBtn">
+              Enviar
+            </button>
 
-            <div class="d-flex justify-content-start">
-              <button
-                type="button"
-                class="btn btn-primary fw-light"
-                style="background-color: #10ccf4"
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToast"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
               >
-                Enviar
-              </button>
+                <div class="toast-header">
+                  <i class="fa-regular fa-paper-plane me-2"></i>
+                  <strong class="me-auto">Mensaje Enviado</strong>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+              </div>
             </div>
           </form>
         </div>
@@ -331,7 +345,7 @@
     <!-- FOOTER -->
     <footer
       id="redessociales"
-      class="d-sm-flex justify-content-evenly align-items-center py-3 px-5 text-white "
+      class="d-flex justify-content-evenly align-items-center py-3 px-5 text-white"
     >
       <div class="">
         <h4 class="fw-light">VIAJES CHILE</h4>
